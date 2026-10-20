@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const TARGET_GOAL = 2_200_000;
-const CURRENT_RAISED = 101_000;
+const CURRENT_RAISED = 0_0;
 
 export default function FundingProgress() {
   const [value, setValue] = useState(0);
